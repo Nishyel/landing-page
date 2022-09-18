@@ -84,6 +84,11 @@ button {
     padding: 0;
 }
 
+
+
+
+
+
 .albumcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -167,7 +172,6 @@ button {
     gap: 10px; 
 }
 
-
 h2 {
     margin: 0;
 }
@@ -187,6 +191,7 @@ p2 {
     background-color: #1f2937;
     color: white;
 }
+
 
 
 
