@@ -1,5 +1,9 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 html, body {
-    width: 100%;
+    width: 100%;   
 }
 
 .header {
@@ -19,8 +23,10 @@ body {
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    flex: 1;   
 }
 
 .logo {
@@ -37,13 +43,18 @@ ul {
 }
 
 a {
-    color: white;
     text-decoration: none;
     color: rgb(218, 33, 33);
 }
 
+.desc {
+    font-weight: 100;
+    font-size: 14px;
+}
+
 .sign {
     max-width: 400px;
+    
 }
 
 button {
@@ -59,6 +70,7 @@ button {
     gap: 50px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -69,13 +81,7 @@ button {
     flex-direction: column;
     flex: 1;
     gap: 30px;
-}
-
-
-
-
-.albums {
-    background-color: 
+    padding: 0;
 }
 
 .albumcontainer {
@@ -97,6 +103,11 @@ button {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+
+
 
 .quote-section {
     background-color: lightblue;
@@ -120,8 +131,13 @@ button {
 .quote-container :nth-child(2) {
     margin-left: auto;
     font-size: 24px;
-    padding: 20px 
+    padding: 20px;
+    color: ant
 }
+
+
+
+
 
 .cta-sec {
     margin: auto;
@@ -139,7 +155,7 @@ button {
     margin: 50px;
     padding: 40px 100px;
     gap: 100px;    
-    background-color: #3882F6;
+    background-color: #1f2937;
     border-radius: 10px;
     max-width: 570px;    
 }
@@ -153,8 +169,12 @@ button {
 
 
 h2 {
-    font-family: ;
     margin: 0;
+}
+
+p2 {
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .sign-up {
@@ -164,7 +184,47 @@ h2 {
     flex-grow: 1;
 
     border: 2px solid white;
-    background-color: #3882F6;
+    background-color: #1f2937;
     color: white;
 }
 
+
+
+
+
+.picture-section {
+    background-color: antiquewhite;
+    padding: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    font-weight: 100;
+   
+}
+
+.pic {
+    width: 50%;
+    border: 20px solid white;
+}
+
+
+
+
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
